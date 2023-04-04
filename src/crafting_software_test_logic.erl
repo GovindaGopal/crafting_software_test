@@ -21,6 +21,8 @@ script(_) ->
 %%% Internal functions
 %%%===================================================================
 
+%% This function works correctly just with tasks from <<"task-1">> to <<"task-9">>
+%% In other case index in a name should be with 0 from <<"task-01">> to <<"task-09">>
 sort_tasks([]) ->
     [];
 sort_tasks(Tasks) ->

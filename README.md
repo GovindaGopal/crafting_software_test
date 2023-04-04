@@ -151,3 +151,14 @@ or
               }
           ]
       }'
+      
+### Unit tests
+
+For running unit tests call the command in console
+
+    $ make tests
+    
+or 
+
+    $ ./start.sh
+    $ eunit:test(crafting_software_test_logic).
